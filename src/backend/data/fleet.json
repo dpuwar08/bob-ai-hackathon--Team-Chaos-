@@ -1,0 +1,94 @@
+{
+  "fleet": [
+    {
+      "id": "TRK-104",
+      "registration": "MH-12-AB-4104",
+      "type": "refrigerated-truck",
+      "capacityKg": 8000,
+      "refrigeration": {
+        "available": true,
+        "temperatureRangeCelsius": { "min": 2, "max": 8 },
+        "currentCelsius": 5.1,
+        "fuelPercent": 72
+      },
+      "status": "active",
+      "driver": "Arjun Mehta",
+      "currentLocation": "Navi Mumbai Cold Store",
+      "nextStop": "Mumbai Municipal Hospital",
+      "assignedShipmentIds": ["SHP-2026-0901"],
+      "lastInspectionAt": "2026-09-10T09:20:00+05:30"
+    },
+    {
+      "id": "TRK-107",
+      "registration": "MH-15-KL-7807",
+      "type": "box-truck",
+      "capacityKg": 10000,
+      "refrigeration": {
+        "available": false,
+        "temperatureRangeCelsius": null,
+        "currentCelsius": null,
+        "fuelPercent": 64
+      },
+      "status": "active",
+      "driver": "Sameer Khan",
+      "currentLocation": "Bhiwandi Diversion Yard",
+      "nextStop": "Mumbai Public Health Warehouse",
+      "assignedShipmentIds": ["SHP-2026-0904"],
+      "lastInspectionAt": "2026-09-11T14:05:00+05:30"
+    },
+    {
+      "id": "TRK-109",
+      "registration": "GJ-01-RS-2309",
+      "type": "refrigerated-truck",
+      "capacityKg": 12000,
+      "refrigeration": {
+        "available": true,
+        "temperatureRangeCelsius": { "min": 2, "max": 8 },
+        "currentCelsius": 6.4,
+        "fuelPercent": 91
+      },
+      "status": "idle",
+      "driver": "Nisha Patel",
+      "currentLocation": "Ahmedabad Distribution Centre",
+      "nextStop": null,
+      "assignedShipmentIds": ["SHP-2026-0902"],
+      "lastInspectionAt": "2026-09-13T16:40:00+05:30"
+    },
+    {
+      "id": "TRK-112",
+      "registration": "KA-05-MN-6112",
+      "type": "flatbed-truck",
+      "capacityKg": 15000,
+      "refrigeration": {
+        "available": false,
+        "temperatureRangeCelsius": null,
+        "currentCelsius": null,
+        "fuelPercent": 48
+      },
+      "status": "active",
+      "driver": "Vikram Rao",
+      "currentLocation": "Pune Logistics Park",
+      "nextStop": "Mumbai Retail Warehouse",
+      "assignedShipmentIds": ["SHP-2026-0903"],
+      "lastInspectionAt": "2026-09-09T11:15:00+05:30"
+    },
+    {
+      "id": "TRK-115",
+      "registration": "MH-43-CD-9115",
+      "type": "refrigerated-truck",
+      "capacityKg": 9000,
+      "refrigeration": {
+        "available": true,
+        "temperatureRangeCelsius": { "min": 2, "max": 8 },
+        "currentCelsius": null,
+        "fuelPercent": 86
+      },
+      "status": "idle",
+      "driver": "Unassigned",
+      "currentLocation": "Mumbai North Depot",
+      "nextStop": null,
+      "assignedShipmentIds": [],
+      "lastInspectionAt": "2026-09-12T08:30:00+05:30"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "disruptions": [
+    {
+      "id": "DIS-2026-0914-001",
+      "name": "Mumbai Port Strike",
+      "type": "labor-strike",
+      "status": "active",
+      "severity": "major",
+      "location": {
+        "city": "Mumbai",
+        "facilities": ["Nhava Sheva Port", "Mumbai Port", "JNPT access roads"],
+        "coordinates": { "latitude": 18.9497, "longitude": 72.9479 }
+      },
+      "startedAt": "2026-09-14T04:00:00+05:30",
+      "expectedResolutionAt": "2026-09-16T23:59:00+05:30",
+      "affectedModes": ["road", "ocean", "port-handling"],
+      "impact": {
+        "severity": "high",
+        "description": "Port gates and nearby access roads have restricted movement, affecting inbound medical supplies and container pickups.",
+        "estimatedDelayHours": { "min": 12, "max": 48 },
+        "affectedShipmentIds": ["SHP-2026-0904", "SHP-2026-0903"]
+      },
+      "recommendedActions": [
+        "Use Bhiwandi and Navi Mumbai staging yards for temporary holding.",
+        "Prioritize cold-chain shipments and keep refrigeration units powered.",
+        "Reroute eligible deliveries through the Pune-Nashik corridor.",
+        "Confirm port access with the operations desk before dispatch."
+      ],
+      "lastUpdatedAt": "2026-09-14T09:30:00+05:30"
+    },
+    {
+      "id": "DIS-2026-0913-002",
+      "name": "Pune-Mumbai Monsoon Congestion",
+      "type": "severe-weather",
+      "status": "monitoring",
+      "severity": "moderate",
+      "location": {
+        "city": "Pune",
+        "facilities": ["Mumbai-Pune Expressway"],
+        "coordinates": { "latitude": 18.5204, "longitude": 73.8567 }
+      },
+      "startedAt": "2026-09-13T18:00:00+05:30",
+      "expectedResolutionAt": "2026-09-14T20:00:00+05:30",
+      "affectedModes": ["road"],
+      "impact": {
+        "severity": "medium",
+        "description": "Heavy rainfall is slowing traffic near Lonavala and may add transit time to westbound routes.",
+        "estimatedDelayHours": { "min": 2, "max": 6 },
+        "affectedShipmentIds": ["SHP-2026-0901", "SHP-2026-0903"]
+      },
+      "recommendedActions": [
+        "Add a weather buffer to Pune-Mumbai ETA calculations.",
+        "Monitor road conditions at the next driver check-in."
+      ],
+      "lastUpdatedAt": "2026-09-14T08:45:00+05:30"
+    }
+  ]
+}
