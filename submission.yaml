@@ -1,0 +1,38 @@
+team_name: "ChainGuard AI"
+project_name: "ChainGuard AI: Autonomous Cold-Chain & Maritime Disruption Control Tower"
+track: "AI-Powered Supply Chain Resilience & Logistics Optimization"
+
+team_leader:
+  name: "Divyaraj Puwar"
+  email: "26dce093@charusat.edu.in"
+  github_username: "dpuwar08"
+
+team_members:
+  - name: "Bhakti Hotwani"
+    email: "26dce031@charusat.edu.in"
+    github_username: "bhaktihotwani203-ship-it"
+  - name: "Anjali Patel"
+    email: "26dce065@charusat.edu.in"
+    github_username: "anjalip16-dotcom"
+  - name: "Dhairya Jani"
+    email: "26dce034@charusat.edu.in"
+    github_username: "dhairyajani04-ai"
+
+project_summary: >
+  ChainGuard AI is an enterprise-grade autonomous logistics resilience engine engineered to mitigate multimillion-dollar maritime supply chain failures. When critical port strikes or thermal breaches paralyze primary freight corridors (such as Mumbai JNPT), ChainGuard AI instantly analyzes multi-tier risk vectors, dynamically reroutes high-priority pharma cargo through alternate hubs (such as Mundra Gateway), and optimizes idle refrigerated fleet capacity. Featuring an interactive, glassmorphism dark-ops telemetry deck, the platform translates real-time sensor telemetry into deterministic, multi-objective trade-offs between delivery latency, fuel economics, and life-critical cold-chain preservation.
+
+technologies_used:
+  - "IBM Bob Autonomous Developer Agent"
+  - "FastAPI (Asynchronous Python Backend Engine)"
+  - "Model Context Protocol (MCP) Live Connector Architecture"
+  - "Tailwind CSS & Vanilla JavaScript (Glassmorphism Control Tower UI)"
+  - "Leaflet.js Dynamic GIS Routing & Chart.js Thermal Telemetry"
+  - "Pytest Suite (Automated Blast-Radius & Optimizer Diagnostics)"
+
+ibm_bob_usage_summary: >
+  IBM Bob functioned as the end-to-end principal system architect and pair programmer throughout the project lifecycle:
+  1. Multi-Agent System Scaffolding: Architected the complete repository topology, structured production FastAPI schemas, and synthesized realistic pharma logistics datasets.
+  2. Algorithmic Decision Modeling: Autonomously authored the multi-objective Pareto optimizer, downstream blast-radius penalty calculators, and idle reefer matching algorithms.
+  3. Protocol Extensibility: Engineered a lightweight Model Context Protocol (MCP) server for dynamic context injection and live telemetry querying.
+  4. Enterprise UI/UX Engineering: Generated a reactive cyber-defense aesthetic control deck complete with responsive canvas charting and spatial GIS mapping.
+  5. Code Quality & Verification: Executed rigorous `/review` cycles and synthesized automated pytest suites to enforce resilient endpoint contracts and zero runtime regressions.
