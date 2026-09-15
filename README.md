@@ -1,10 +1,17 @@
- # ChainGuard AI — Autonomous Cold-Chain Logistics Control Tower
+# ChainGuard AI — Autonomous Cold-Chain Logistics Control Tower
 
 Built for the **BOB AI Innovation Hackathon** by **Team Chaos**.
 
 ---
 
-## Team
+## 🎥 Project Demonstration
+
+- **Live Control Tower Deck:** [ChainGuard AI Live](https://dpuwar08.github.io/bob-ai-hackathon--Team-Chaos-/)
+- **Video Demonstration:** [YouTube Walkthrough & System Architecture](https://youtu.be/H0OhWeLY5vg)
+
+---
+
+## 👥 Team Dossier
 
 - **Track:** AI
 - **Team Lead:** Divyaraj Puwar — AI Decision Engine, Architecture, Integration, Pitch
@@ -15,7 +22,7 @@ Built for the **BOB AI Innovation Hackathon** by **Team Chaos**.
 
 ---
 
-## Problem Statement
+## 📌 Problem Statement
 
 When logistics networks experience sudden macro disruptions—such as harbor strikes or regional corridor shutdowns—cargo risk compounds exponentially. In temperature-sensitive cold-chain logistics, waiting out a bottleneck is fatal: biological pharmaceuticals and vaccines degrade if ambient conditions drift outside strict 2°C to 8°C limits. 
 
@@ -23,7 +30,7 @@ Conventional navigation platforms only discover problems after delays occur and 
 
 ---
 
-## Solution
+## 💡 Solution: The 5-Step Closed Decision Loop
 
 ChainGuard AI converts real-time supply chain disruptions into autonomous, explainable recovery actions through a closed five-step operational loop:
 
@@ -35,7 +42,7 @@ ChainGuard AI converts real-time supply chain disruptions into autonomous, expla
 
 ---
 
-## Key Features
+## ⚙️ Key Features
 
 - **Multi-Constraint Optimization Engine:** Balances delay hours, fuel overhead, thermal exposure risk, and vehicle capacity penalties.
 - **Live Cold-Chain Telemetry:** Continuous monitoring of biological cargo within the critical 2°C–8°C window with proactive excursion alarms.
@@ -45,17 +52,17 @@ ChainGuard AI converts real-time supply chain disruptions into autonomous, expla
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Backend:** Python 3.10+, FastAPI, Uvicorn, Mangum (Serverless Handler)
 - **Data & Interfaces:** Model Context Protocol (MCP) Connector, RESTful API
-- **Frontend:** Reactive Command Deck (HTML5, CSS3, JavaScript)
+- **Frontend:** Reactive Command Deck (HTML5, CSS3, Modern JavaScript)
 - **Deployment:** Netlify Functions & GitHub Pages
 - **Testing:** Pytest
 
 ---
 
-## How to Run Locally
+## 🚀 How to Run Locally
 
 ### Prerequisites
 - Python 3.10+
