@@ -72,5 +72,6 @@ ChainGuard AI converts real-time supply chain disruptions into autonomous, expla
 
 1. **Clone the repository:**
    ```bash
+   ...
    git clone [https://github.com/dpuwar08/bob-ai-hackathon--Team-Chaos-.git](https://github.com/dpuwar08/bob-ai-hackathon--Team-Chaos-.git)
    cd bob-ai-hackathon--Team-Chaos-
